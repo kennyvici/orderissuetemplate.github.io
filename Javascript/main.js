@@ -29,8 +29,8 @@
                             text += 'plus an additional $40';
                         }
                 text += "\n-Refund to your original method of payment used to place this order";
-                text += "\n\nLet us know which you would prefer. So sorry for the inconvenience and thank you so much for your patience! The rest of your Order will be shipping now!";
-                text += "\n\nSo sorry for any inconvenience!";
+                text += "\n\nLet us know which you would prefer. The rest of your Order will be shipping now!";
+                text += "\n\nSo sorry for the inconvenience and thank you so much for your patience!";
                 text += "\n\nSincerely,";
                 text += "\nVICI";
                 }
@@ -41,7 +41,7 @@
                     var text = 'Thank you for shopping with VICI!'
                 text += "\n\nDuring our Quality Control process, our team found damages to the following item:";
                 text += '\n\n'+$("#Description").val();
-                text += '\n\nUnfortunately, it was the very last piece in that size so we do not have an alternate to send. We are so very sorry for the inconvenience and appreciate your patience. We have the following options to offer you:';
+                text += '\n\nUnfortunately, it was the very last piece in that size so we do not have an alternate to send. We are so very sorry for the inconvenience and your patience. We have the following options to offer you:';
                 text += '\n\n-Store credit for the item '
                 if ($("#ECGAmount").val()) {
                             text += 'plus an additional $' +$("#ECGAmount").val();
@@ -53,8 +53,8 @@
                             text += 'plus an additional $40';
                         }
                 text += "\n-Refund to your original method of payment used to place this order";
-                text += "\n\nLet us know which you would prefer. So sorry for the inconvenience and thank you so much for your patience!";
-                text += "\n\nSo sorry for any inconvenience!";
+                text += "\n\nLet us know which you would prefer.";
+                text += "\n\nSo sorry for the inconvenience and thank you so much for your patience!";
                 text += "\n\nSincerely,";
                 text += "\nVICI";
                 }
@@ -79,7 +79,7 @@
             <!-- Reprints -->
             if ($("#Template").val() == 4) {
                     var text = 'We apologize sincerely for any delay in the shipment of your order!'
-                text += "\n\nWe had looked in our system and saw that your order was not shipped within our processing time frame. We are not sure why this order was not shipped or if it is lost :( We sincerely apologize!";    
+                text += "\n\nWe had looked in our system and saw that your order was not shipped within our processing time frame. We are not sure why this order was not shipped or if it is lost.";    
                 text += "\n\nWe reprinted the order and re-pulled the items, but we don't have all of the items";
                 text += "\n\nWe currently do not have the following:";
                 text += '\n\n'+$("#Description").val();
