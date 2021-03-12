@@ -1,0 +1,35 @@
+	body {
+  font-family: helvetica-light;
+  color: White;
+  height: 80px;
+  width: 100%;
+  margin: auto;
+  background-color: black;
+  
+}
+
+img {
+   -webkit-filter: invert(1);
+   filter: invert(1);
+   }
+
+	
+    .div_class{
+        width: 78%;
+        margin-bottom: 20px;
+    }
+    
+    .heading{
+    	font-family: helvetica-oblique;
+    	font-size: 15pt;
+    	display:block;
+    	text-align:center;
+    
+    }
+    
+    .content1{
+    
+    text-align: -webkit-center;
+    	
+    
+    }
