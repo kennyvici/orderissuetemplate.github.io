@@ -78,22 +78,23 @@
             else {
                 
             <!-- Reprints -->
-            if ($("#Template").val() == 4) {
+             if ($("#Template").val() == 4) {
                     var text = 'We apologize sincerely for any delay in the shipment of your order!'
-                text += "\n\nWe had looked in our system and saw that your order was not shipped within our processing time frame. We are not sure why this order was not shipped or if it is lost.";    
+                text += "\n\nWe had looked in our system and saw that your order was not shipped within our processing time frame. We are not sure why this order was not shipped or if it is lost :( We sincerely apologize!";    
                 text += "\n\nWe reprinted the order and re-pulled the items, but we don't have all of the items";
                 text += "\n\nWe currently do not have the following:";
                 text += '\n\n'+$("#Description").val();
-                text += '\n\nI can offer you Store Credit or a Refund for the items.';
+                text += '\n\nI can offer you Store Credit ';
                  if ($("#ECGAmount").val()) {
-                            text += 'plus an additional $' +$("#ECGAmount").val();
+                            text += 'plus an additional $' +$("#ECGAmount").val() + ' ' ;
                         }
                         if ($("#AdditionalAmount25").is(':checked')) {
-                            text += 'plus an additional $25';
+                            text += 'plus an additional $25 ';
                         }
                          if ($("#AdditionalAmount40").is(':checked')) {
-                            text += 'plus an additional $40';
+                            text += 'plus an additional $40 ';
                         }
+                text += 'or a Refund for the items.';     
                 text += "\n\nPlease advise which option works best for you!";
                 text += "\n\nThank you and our apologies!";
                 text += "\n\nSincerely,";
