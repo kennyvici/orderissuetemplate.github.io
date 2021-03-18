@@ -85,6 +85,15 @@
                 text += "\n\nWe currently do not have the following:";
                 text += '\n\n'+$("#Description").val();
                 text += '\n\nI can offer you Store Credit or a Refund for the items.';
+                 if ($("#ECGAmount").val()) {
+                            text += 'plus an additional $' +$("#ECGAmount").val();
+                        }
+                        if ($("#AdditionalAmount25").is(':checked')) {
+                            text += 'plus an additional $25';
+                        }
+                         if ($("#AdditionalAmount40").is(':checked')) {
+                            text += 'plus an additional $40';
+                        }
                 text += "\n\nPlease advise which option works best for you!";
                 text += "\n\nThank you and our apologies!";
                 text += "\n\nSincerely,";
