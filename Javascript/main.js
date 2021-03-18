@@ -1,3 +1,4 @@
+	 
 	 $("#Template").focus();
         function CreateData(val){
             if(val == 1){
@@ -30,7 +31,7 @@
                         }
                 text += "\n-Refund to your original method of payment used to place this order";
                 text += "\n\nLet us know which you would prefer. The rest of your Order will be shipping now!";
-                text += "\n\nSo sorry for the inconvenience and thank you so much for your patience!";
+                text += "\n\nAgain we're so sorry for the inconvenience and thank you so much for your patience!";
                 text += "\n\nSincerely,";
                 text += "\nVICI";
                 }
