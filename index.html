@@ -12,12 +12,12 @@
 <link rel="stylesheet" href="Styles.css">
 <title>Order Issue Templates</title>
 </head>
-<body style="background-image: url('deco3.jpeg');">
+<body style="background-image: url('deco3.jpeg');background-repeat: no-repeat; background-size: cover;">
 <img src="LOGO.PNG" alt="VICI" itemprop="logo" style="width:50%; display:block; margin-left: auto; margin-right: auto;">
     <div class="content1"">
         <div class="div_class">
-            <label>Template</label><br>
-            <select id="Template" style="width: 50%;border-radius: 10px; height:25px; ">
+            <label style="font-size: 20px; font-style: italic;">Template</label><br>
+            <select id="Template" style="width: 50%;border-radius: 10px; height:25px; margin-top: 8px; ">
                 <option value="0" selected>Select Option</option>
                 <option value="1">Order Issue</option>
            		<option value="2">Cancel</option>
@@ -27,12 +27,12 @@
             </select>
         </div>
         <div class="div_class"> 
-            <label>Item Description</label><br>
-            <textarea type="text" id="Description" style="width: 100%; height:25px;" ></textarea>
+            <label style="font-size: 20px; font-style: italic;">Item Description</label><br>
+            <textarea type="text" id="Description" style="width: 80%; height:25px; margin-top: 8px;" ></textarea>
         </div>
         <div class="div_class">
-            <label>EGC Amount</label><br>
-            <input type="number" id="ECGAmount" placeholder="Custom Amount" style="width: 19%; height:25px;" />
+            <label style="font-size: 20px;">Gift Card Amount</label><br>
+            <input type="number" id="ECGAmount" placeholder="Custom Amount" style="width: 19%; height:25px; margin-top: 8px;" />
             <input type="checkbox" id="AdditionalAmount25" /><span id="AdditionalAmountLabel">Additional $25</span>
             <input type="checkbox" id="AdditionalAmount40" /><span id="AdditionalAmountLabel">Additional $40</span>
         </div>
