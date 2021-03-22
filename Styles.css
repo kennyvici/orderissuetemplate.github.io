@@ -4,6 +4,8 @@
   height: 80px;
   width: 100%;
   margin: auto;
+  background-image: url ("back.png");
+  
   
 }
 
@@ -28,11 +30,37 @@ img {
     
     .content1{
     
-    text-align: -webkit-center;
+    	text-align: -webkit-center;
     	
     
     }
     
     textarea{
             font-family: Helvetica Neue;
+            border-radius: 6px;
         }
+        
+    input{
+            font-family: Helvetica Neue;
+            border-radius: 12px;
+        }
+        
+    
+    button {
+    	font-family: Helvetica Neue;
+ 		background-color: #4d8bc9;
+ 		padding: 12px;
+ 		-moz-border-radius: 5px;
+ 		-webkit-border-radius: 5px;
+ 		border-radius: 6px;
+ 		color: #fff;
+ 		font-size: 14px;
+ 		text-decoration: none;
+ 		border: none;
+}
+
+	button:hover {
+ 		border: none;
+ 		background: orange;
+ 		box-shadow: 0px 0px 1px #777;
+}
