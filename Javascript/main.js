@@ -18,20 +18,10 @@
                 var text = 'Thank you for shopping with VICI!'
                 text += "\n\nDuring our Quality Control process, our team found damages to the following item:";
                 text += '\n\n'+$("#Description").val();
-                text += '\n\nUnfortunately, it was the very last piece in that size so we do not have an alternate to send. We are so very sorry for the inconvenience and appreciate your patience. We have the following options to offer you:';
-                text += '\n\n-Store credit for the item ' 
-                if ($("#ECGAmount").val()) {
-                            text += 'plus an additional $' +$("#ECGAmount").val();
-                        }
-                        if ($("#AdditionalAmount25").is(':checked')) {
-                            text += 'plus an additional $25';
-                        }
-                         if ($("#AdditionalAmount40").is(':checked')) {
-                            text += 'plus an additional $40';
-                        }
-                text += "\n-Refund to your original method of payment used to place this order";
-                text += "\n\nLet us know which you would prefer. The rest of your Order will be shipping now!";
-                text += "\n\nAgain we're so sorry for the inconvenience and thank you so much for your patience!";
+                text += '\n\nUnfortunately, it was the very last piece in that size so we do not have an alternate to send.We sincerely apologize for any inconvenience this may have caused and we appreciate your patience.';
+                text += '\n\nWe have processed a refund to the method of payment used for this item. You will receive an email notification for the refund shortly.' 
+                text += "\nWe would like to offer you a 25% off one-time use promotional code to apply to your next purchase as our apologies: SORRY25";
+                text += "\n\nSo sorry again for the inconvenience! ";
                 text += "\n\nSincerely,";
                 text += "\nVICI";
                 }
@@ -79,24 +69,13 @@
                 
             <!-- Reprints -->
              if ($("#Template").val() == 4) {
-                    var text = 'We apologize sincerely for any delay in the shipment of your order!'
-                text += "\n\nWe had looked in our system and saw that your order was not shipped within our processing time frame. We are not sure why this order was not shipped or if it is lost :( We sincerely apologize!";    
-                text += "\n\nWe reprinted the order and re-pulled the items, but we don't have all of the items";
-                text += "\n\nWe currently do not have the following:";
-                text += '\n\n'+$("#Description").val();
-                text += '\n\nI can offer you Store Credit ';
-                 if ($("#ECGAmount").val()) {
-                            text += 'plus an additional $' +$("#ECGAmount").val() + ' ' ;
-                        }
-                        if ($("#AdditionalAmount25").is(':checked')) {
-                            text += 'plus an additional $25 ';
-                        }
-                         if ($("#AdditionalAmount40").is(':checked')) {
-                            text += 'plus an additional $40 ';
-                        }
-                text += 'or a Refund for the items.';     
-                text += "\n\nPlease advise which option works best for you!";
-                text += "\n\nThank you and our apologies!";
+                    var text = 'Thank you for shopping with us!'
+                text += "\n\nOur sincerest apologies for the delay with your order.";    
+                text += '\n\nDuring our Quality Control process, our team found damage to the. ' +$("#Description").val();
+                text += " Unfortunately, it was the very last piece in that size and we do not have an alternate to send.";
+                text += "\n\nWe have processed a refund to the method of payment for this missing item and the remaining items in your order are being shipped now! You will receive tracking information for your order within the next 1-2 business days.";
+                text += '\n\nWe appreciate your patience!';
+                text += 'So sorry again for any inconvenience this may have caused!';     
                 text += "\n\nSincerely,";
                 text += "\nVICI";		
                 }
