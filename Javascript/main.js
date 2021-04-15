@@ -18,7 +18,7 @@
                 var text = 'Thank you for shopping with VICI!'
                 text += "\n\nDuring our Quality Control process, our team found damages to the following item:";
                 text += '\n\n'+$("#Description").val();
-                text += '\n\nUnfortunately, it was the very last piece in that size so we do not have an alternate to send.We sincerely apologize for any inconvenience this may have caused and we appreciate your patience.';
+                text += '\n\nUnfortunately, it was the very last piece in that size so we do not have an alternate to send. We sincerely apologize for any inconvenience this may have caused and we appreciate your patience.';
                 text += '\n\nWe have processed a refund to the method of payment used for this item. You will receive an email notification for the refund shortly.' 
                 text += "\nWe would like to offer you a 25% off one-time use promotional code to apply to your next purchase as our apologies: SORRY25";
                 text += "\n\nSo sorry again for the inconvenience! ";
